@@ -72,7 +72,7 @@ class ProfileViewController: UIViewController {
         } else {
             print("Frame is nil at \(#function)")
         }
-        //Frame принимает финальное значение, кнопка edit получила свой фрейм при инициализации. Если верстать без storyboard, использую только констрейнты и не задавая frame вручную, на этом моменте он был бы равен нулю.
+        //Frame принимает не nil значение, кнопка edit получила свой фрейм при инициализации. В данный момент он равен значению из storyboard.
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -92,7 +92,7 @@ class ProfileViewController: UIViewController {
         } else {
             print("Frame is nil at \(#function)")
         }
-        // Здесь также frame имеет окончательное значение.
+        // Здесь frame имеет другое значение начальной точки, так как она изменилась в соответствии с размерами экрана и констрейнтами.
     }
     
     override func viewWillLayoutSubviews() {
