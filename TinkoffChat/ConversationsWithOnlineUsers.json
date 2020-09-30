@@ -1,0 +1,72 @@
+[
+  { 
+    "name": "Alexey Alekseev",
+    "message": "Hello!",
+    "date": "29-09-2020 10:36",
+    "isOnline": true,
+    "hasUnreadMessages": true
+  },
+  { 
+    "name": "Ivan Ivanov",
+    "message": "How are you?",
+    "date": "28-09-2020 17:12",
+    "isOnline": true,
+    "hasUnreadMessages": false
+  },
+  { 
+    "name": "Aleksandr Aleksandrov",
+    "message": "I already asked him",
+    "date": "26-09-2020 11:00",
+    "isOnline": true,
+    "hasUnreadMessages": true
+  },
+  { 
+    "name": "Andrei Andreev",
+    "message": "I agree",
+    "date": "29-09-2020 15:55",
+    "isOnline": true,
+    "hasUnreadMessages": false
+  },
+  { 
+    "name": "Dmitriy Dmitriev",
+    "message": "Who?",
+    "date": "28-09-2020 10:07",
+    "isOnline": true,
+    "hasUnreadMessages": true
+  },
+  { 
+    "name": "Egor Egorov",
+    "message": "Why?",
+    "date": "29-09-2020 19:25",
+    "isOnline": true,
+    "hasUnreadMessages": true
+  },
+  { 
+    "name": "Stepan Stepanov",
+    "message": "I didn't hear about that",
+    "date": "25-09-2020 21:30",
+    "isOnline": true,
+    "hasUnreadMessages": false
+  },
+  { 
+    "name": "Kirill Kirillov",
+    "message": "How you doing?",
+    "date": "29-09-2020 11:55",
+    "isOnline": true,
+    "hasUnreadMessages": true
+  },
+  { 
+    "name": "Artem Artemov",
+    "message": "Hi!",
+    "date": "29-09-2020 18:36",
+    "isOnline": true,
+    "hasUnreadMessages": false
+  },
+  { 
+    "name": "Igor Igorev",
+    "message": "On my way",
+    "date": "21-09-2020 5:34",
+    "isOnline": true,
+    "hasUnreadMessages": true
+  }
+]

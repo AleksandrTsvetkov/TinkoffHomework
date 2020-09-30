@@ -1,0 +1,72 @@
+[
+  { 
+    "name": "Aaren",
+    "message": "Bye",
+    "date": "21-04-20 16:54",
+    "isOnline": false,
+    "hasUnreadMessages": true
+  },
+  { 
+    "name": "Aarika",
+    "message": "Good luck!",
+    "date": "28-02-20 17:12",
+    "isOnline": false,
+    "hasUnreadMessages": false
+  },
+  { 
+    "name": "Abagael",
+    "message": "See you!",
+    "date": "26-09-20 11:34",
+    "isOnline": false,
+    "hasUnreadMessages": true
+  },
+  { 
+    "name": "Abagail",
+    "message": "Good night!",
+    "date": "29-09-20 15:15",
+    "isOnline": false,
+    "hasUnreadMessages": false
+  },
+  { 
+    "name": "Abbe",
+    "message": "I will check this later",
+    "date": "25-09-20 11:17",
+    "isOnline": false,
+    "hasUnreadMessages": true
+  },
+  { 
+    "name": "Abbey",
+    "message": "My computer stopped working",
+    "date": "21-09-20 19:05",
+    "isOnline": false,
+    "hasUnreadMessages": true
+  },
+  { 
+    "name": "Abbi",
+    "message": "Battery low, I'll call later",
+    "date": "24-09-20 13:34",
+    "isOnline": false,
+    "hasUnreadMessages": false
+  },
+  { 
+    "name": "Abbie",
+    "message": "Where are you?",
+    "date": "29-09-20 11:55",
+    "isOnline": false,
+    "hasUnreadMessages": true
+  },
+  { 
+    "name": "Abby",
+    "message": "Hi!",
+    "date": "21-09-20 18:36",
+    "isOnline": false,
+    "hasUnreadMessages": false
+  },
+  { 
+    "name": "Abbye",
+    "message": "On my way",
+    "date": "21-02-20 15:34",
+    "isOnline": false,
+    "hasUnreadMessages": true
+  }
+]
