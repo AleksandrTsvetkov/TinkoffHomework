@@ -49,12 +49,6 @@ class ConversationCell: UITableViewCell, ConfigurableView {
         if model.hasUnreadMessages {
             messageTextLabel.font = UIFont.systemFont(ofSize: 13, weight: .bold)
         }
-        if model.isOnline {
-            contentView.backgroundColor = UIColor(displayP3Red: 0.949019607843137, green: 1, blue: 0.576470588235294, alpha: 1)
-        } else {
-            contentView.backgroundColor = .white
-        }
-        
     }
     
 }
