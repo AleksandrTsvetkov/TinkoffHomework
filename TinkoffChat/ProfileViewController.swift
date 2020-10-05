@@ -17,6 +17,7 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var userInfoLabel: UILabel!
     @IBOutlet weak var saveButton: UIButton!
+    private let defaults = UserDefaults.standard
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -73,6 +74,37 @@ class ProfileViewController: UIViewController {
             print("Frame is nil at \(#function)")
         }
         //Frame принимает не nil значение, кнопка edit получила свой фрейм при инициализации. В данный момент он равен значению из storyboard.
+        //setTheme()
+        switch defaults.string(forKey: "theme") {
+        case "classic":
+            view.backgroundColor = #colorLiteral(red: 0.968627451, green: 0.9725490196, blue: 0.9921568627, alpha: 1)
+            saveButton.backgroundColor = #colorLiteral(red: 0.968627451, green: 0.9725490196, blue: 0.9921568627, alpha: 1)
+            saveButton.setTitleColor(.black, for: .normal)
+            editButton.setTitleColor(.black, for: .normal)
+            nameLabel.textColor = .black
+            userInfoLabel.textColor = .black
+        case "day":
+            view.backgroundColor = .white
+            saveButton.backgroundColor = .white
+            saveButton.setTitleColor(.black, for: .normal)
+            editButton.setTitleColor(.black, for: .normal)
+            nameLabel.textColor = .black
+            userInfoLabel.textColor = .black
+        case "night":
+            view.backgroundColor = UIColor(red: 0.098, green: 0.21, blue: 0.379, alpha: 1)
+            saveButton.backgroundColor = UIColor(red: 0.098, green: 0.21, blue: 0.379, alpha: 1)
+            saveButton.setTitleColor(.white, for: .normal)
+            editButton.setTitleColor(.white, for: .normal)
+            nameLabel.textColor = .white
+            userInfoLabel.textColor = .white
+        default:
+            view.backgroundColor = .white
+            saveButton.backgroundColor = .white
+            saveButton.setTitleColor(.black, for: .normal)
+            editButton.setTitleColor(.black, for: .normal)
+            nameLabel.textColor = .black
+            userInfoLabel.textColor = .black
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -132,3 +164,18 @@ extension ProfileViewController: UIImagePickerControllerDelegate, UINavigationCo
         initialsLabel.isHidden = true
     }
 }
+
+//extension ProfileViewController: ThemePickerDelegate {
+//    func setTheme() {
+//        switch defaults.string(forKey: "theme") {
+//        case "classic":
+//            view.backgroundColor = #colorLiteral(red: 0.968627451, green: 0.9725490196, blue: 0.9921568627, alpha: 1)
+//        case "day":
+//            view.backgroundColor = .white
+//        case "night":
+//            view.backgroundColor = UIColor(red: 0.098, green: 0.21, blue: 0.379, alpha: 1)
+//        default:
+//            view.backgroundColor = .white
+//        }
+//    }
+//}
